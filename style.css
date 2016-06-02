@@ -1,0 +1,85 @@
+@media screen and (max-width: 912px) {
+#obrazek,
+#alfabet {
+float: none!important;
+margin: 0px auto;
+width: auto!important;
+display: table;
+min-height: 283px!important;
+}
+#container { 
+width: 100%;
+}
+}
+
+
+body {
+background-color: #000;
+color: gray;
+font-size:25px;
+font-family: 'Inconsolata';
+}
+
+#container {
+max-width: 1170px;
+margin: 0 auto;
+text-align:center;
+padding: 10px 15px;
+}
+
+#obrazek,
+#alfabet {
+width: 50%;
+min-height: 280px;
+float: left;
+text-align:center;
+font-family: 'Open Sans', sans-serif;
+line-height: 100%;
+margin-top: 20px;
+}
+
+#haslo {
+width: 100%;
+padding: 50px 0 30px;
+font-size: 40px;
+text-align:center;
+font-weight: 700;
+}
+
+.reset {
+cursor: pointer;
+margin: 30px auto 0;
+color: green;
+font-weight: 600;
+}
+.reset:hover {
+color: #fff;
+}
+
+.litera {
+width: 30px;
+height: 30px;
+padding: 8px 10px 5px;
+text-transform: uppercase;
+text-align:center;
+float: left;
+border: 2px solid gray;
+margin: 5px;
+border-radius: 10px;
+cursor: pointer;
+transition: .2s ease;
+}
+.litera:hover {
+border-color: #fff;
+color: #fff;
+}
+.succes {
+border-color: green;
+pointer-events: none;
+color: green;
+}
+.failed {
+border-color: red;
+color:red;
+pointer-events: none;
+}
